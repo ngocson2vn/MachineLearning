@@ -1,5 +1,4 @@
 import matplotlib.pyplot as g
-import math
 import sys
 
 # houseSizes = [1400, 1600, 1700, 1875, 1100, 1550, 2350, 2450, 1425, 1700]
@@ -14,7 +13,6 @@ def main():
 
     # print(SP)
 
-    print(SP)
     SP.sort(key=lambda e: e[0])
     print(SP)
     X = []
